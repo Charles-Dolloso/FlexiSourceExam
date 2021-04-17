@@ -1,0 +1,25 @@
+<div id="exam">
+    <div id="exam-form-wrapper" fxLayout="column" fxLayoutAlign="center center">
+        <div id="exam-form" fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="column">
+            <div class="container">
+                <form [formGroup]="form" class="exam-form">
+                    <div class="form">
+                        <mat-form-field>
+                            <input matInput placeholder="Text" formControlName="text">
+                        </mat-form-field>
+                    </div>
+                    <div class="form">
+                        <mat-form-field>
+                            <input matInput placeholder="Subtext" formControlName="subtext">
+                        </mat-form-field>
+                    </div>
+
+                    <div mat-dialog-actions style="margin-top: 10px;">
+                        <button mat-raised-button color="primary" (click)="Submit()" style="width: 100%;"
+                            [disabled]="!form.valid">Submit</button>
+                    </div>
+                </form>
+            </div>     
+        </div>
+    </div>
+</div>
