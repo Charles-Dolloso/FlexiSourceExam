@@ -6454,11 +6454,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Charles\\source\\repos\\FlexiSourceExam\\FlexiSourceExam.Test\\FlexiSourceExam.Test.csproj",
+      "projectUniqueName": "D:\\Projects\\FlexiSourceExam\\FlexiSourceExam.Test\\FlexiSourceExam.Test.csproj",
       "projectName": "FlexiSourceExam.Test",
-      "projectPath": "C:\\Users\\Charles\\source\\repos\\FlexiSourceExam\\FlexiSourceExam.Test\\FlexiSourceExam.Test.csproj",
+      "projectPath": "D:\\Projects\\FlexiSourceExam\\FlexiSourceExam.Test\\FlexiSourceExam.Test.csproj",
       "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Charles\\source\\repos\\FlexiSourceExam\\FlexiSourceExam.Test\\obj\\",
+      "outputPath": "D:\\Projects\\FlexiSourceExam\\FlexiSourceExam.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6478,8 +6478,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Charles\\source\\repos\\FlexiSourceExam\\FlexiSourceExam.Api\\FlexiSourceExam.Api.csproj": {
-              "projectPath": "C:\\Users\\Charles\\source\\repos\\FlexiSourceExam\\FlexiSourceExam.Api\\FlexiSourceExam.Api.csproj"
+            "D:\\Projects\\FlexiSourceExam\\FlexiSourceExam.Api\\FlexiSourceExam.Api.csproj": {
+              "projectPath": "D:\\Projects\\FlexiSourceExam\\FlexiSourceExam.Api\\FlexiSourceExam.Api.csproj"
             }
           }
         }

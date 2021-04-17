@@ -72,7 +72,6 @@ D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\bin\Debug\net5.0\Microsoft.OpenA
 D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\obj\Debug\net5.0\FlexiSourceExam.Api.csprojAssemblyReference.cache
 D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\obj\Debug\net5.0\FlexiSourceExam.Api.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\obj\Debug\net5.0\FlexiSourceExam.Api.AssemblyInfoInputs.cache
 D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\obj\Debug\net5.0\FlexiSourceExam.Api.AssemblyInfo.cs
@@ -88,3 +87,4 @@ D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\obj\Debug\net5.0\FlexiSourceExam
 D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\obj\Debug\net5.0\ref\FlexiSourceExam.Api.dll
 D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\obj\Debug\net5.0\FlexiSourceExam.Api.pdb
 D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\obj\Debug\net5.0\FlexiSourceExam.Api.genruntimeconfig.cache
+D:\Projects\FlexiSourceExam\FlexiSourceExam.Api\obj\Debug\net5.0\FlexiSourceExam.Api.csprojAssemblyReference.cache

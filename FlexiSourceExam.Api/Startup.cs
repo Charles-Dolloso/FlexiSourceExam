@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System.IO;
 
 namespace FlexiSourceExam.Api
 {
@@ -23,10 +24,6 @@ namespace FlexiSourceExam.Api
         {
             services.AddControllers();
             services.AddServices();
-            services.AddSpaStaticFiles(configuration =>
-            {
-                configuration.RootPath = "../FlexiSourceExam.UI/dist";
-            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FlexiSourceExam.Api", Version = "v1" });
@@ -44,23 +41,24 @@ namespace FlexiSourceExam.Api
             }
 
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
 
-            app.UseSpa(spa =>
+            app.Use(async (context, next) =>
             {
-                spa.Options.SourcePath = "../FlexiSourceExam.UI";
-
-                if (env.IsDevelopment())
+                await next();
+                if (context.Response.StatusCode == 404 ||
+                   (!Path.HasExtension(context.Request.Path.Value)))
                 {
-                    spa.UseAngularCliServer(npmScript: "start");
+                    context.Request.Path = "/index.html";
+                    await next();
                 }
             });
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
         }
     }
 }
