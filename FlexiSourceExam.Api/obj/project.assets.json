@@ -355,11 +355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Charles\\source\\repos\\FlexiSourceExam\\FlexiSourceExam.Api\\FlexiSourceExam.Api.csproj",
+      "projectUniqueName": "D:\\Projects\\FlexiSourceExam\\FlexiSourceExam.Api\\FlexiSourceExam.Api.csproj",
       "projectName": "FlexiSourceExam.Api",
-      "projectPath": "C:\\Users\\Charles\\source\\repos\\FlexiSourceExam\\FlexiSourceExam.Api\\FlexiSourceExam.Api.csproj",
+      "projectPath": "D:\\Projects\\FlexiSourceExam\\FlexiSourceExam.Api\\FlexiSourceExam.Api.csproj",
       "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Charles\\source\\repos\\FlexiSourceExam\\FlexiSourceExam.Api\\obj\\",
+      "outputPath": "D:\\Projects\\FlexiSourceExam\\FlexiSourceExam.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
