@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiSourceExam.Api", "FlexiSourceExam.Api\FlexiSourceExam.Api.csproj", "{A82A5E07-40BE-4331-961A-03800E59F653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiSourceExam.Test", "FlexiSourceExam.Test\FlexiSourceExam.Test.csproj", "{231A0D9F-A3F9-4502-8E1F-5142AC8ED8F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A82A5E07-40BE-4331-961A-03800E59F653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82A5E07-40BE-4331-961A-03800E59F653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82A5E07-40BE-4331-961A-03800E59F653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82A5E07-40BE-4331-961A-03800E59F653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231A0D9F-A3F9-4502-8E1F-5142AC8ED8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231A0D9F-A3F9-4502-8E1F-5142AC8ED8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231A0D9F-A3F9-4502-8E1F-5142AC8ED8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231A0D9F-A3F9-4502-8E1F-5142AC8ED8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {409B182E-D7D8-4D1D-B0E7-AB088C78FD05}
+	EndGlobalSection
+EndGlobal
