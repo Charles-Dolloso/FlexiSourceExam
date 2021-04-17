@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "FlexiSourceExam"
+  "defaultProject": "FlexiSourceExam",
+  "cli": {
+    "analytics": "077b7d57-ad8d-4074-ba2f-c2da6face3a1"
+  }
 }
