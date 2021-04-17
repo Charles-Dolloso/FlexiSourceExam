@@ -7,6 +7,8 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { examRoutes } from './exam-routing.module';
 import { ExamFormComponent } from './exam-form/exam-form.component';
+import { ExamService } from './services/exam.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [ExamFormComponent],
@@ -17,7 +19,11 @@ import { ExamFormComponent } from './exam-form/exam-form.component';
     MatButtonModule,
     MatIconModule,
     MatCheckboxModule,
+    HttpClientModule,
     examRoutes
-  ]
+  ],
+  providers: [
+    ExamService
+  ],
 })
 export class ExamModule { }

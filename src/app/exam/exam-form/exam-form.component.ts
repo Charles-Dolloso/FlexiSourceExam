@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { noop } from "rxjs";
+import { tap } from "rxjs/operators";
 import { ExamRequest } from '../models/request/exam-request.model';
 import { ExamService } from '../services/exam.service';
 
@@ -37,12 +38,7 @@ export class ExamFormComponent implements OnInit {
         })
       )
       .subscribe(
-        noop,
-        () => alert('Submit Failed')
+        err => alert(err)
       );
   }
 }
-function tap(arg0: (user: any) => void): import("rxjs").OperatorFunction<import("../models/response/exam-response.model").ExamResponse, unknown> {
-  throw new Error('Function not implemented.');
-}
-
