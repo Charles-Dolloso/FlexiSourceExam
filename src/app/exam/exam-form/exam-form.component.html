@@ -19,6 +19,9 @@
                             style="width: 100%;">Submit</button>
                     </div>
                 </form>
+                <br />
+                <mat-label class="success" *ngIf="result">Result: {{result}}</mat-label>
+                <mat-label class="error" *ngIf="errorMessage">{{this.errorMessage}}</mat-label>
             </div>     
         </div>
     </div>

@@ -14,6 +14,8 @@ export class ExamFormComponent implements OnInit {
   form: FormGroup;
   request: ExamRequest;
   hide = true;
+  result: string;
+  errorMessage: string;
 
   constructor(
     private fb: FormBuilder,
@@ -32,13 +34,15 @@ export class ExamFormComponent implements OnInit {
   submit() {
     this.request = this.form.value;
     this.examService.findTextMatchIndex(this.request)
-      .pipe(
-        tap(resp => {
-          console.log(resp);
-        })
-      )
       .subscribe(
-        err => alert(err)
+        (resp) => {
+          this.result = resp.result;
+          this.errorMessage = '';
+        },
+        (err) => {
+          this.result = '';
+          this.errorMessage = err.error;
+        }
       );
   }
 }

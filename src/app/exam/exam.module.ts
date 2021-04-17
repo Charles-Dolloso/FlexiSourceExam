@@ -9,10 +9,12 @@ import { examRoutes } from './exam-routing.module';
 import { ExamFormComponent } from './exam-form/exam-form.component';
 import { ExamService } from './services/exam.service';
 import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [ExamFormComponent],
   imports: [
+    CommonModule,
     ReactiveFormsModule,
     MatCardModule,
     MatInputModule,
