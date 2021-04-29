@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uPalXqv1UFpdehhDIhoga1PeI7iM7VlYpHovW28QraNZNam3KLrhUZzrLCopKV8Jzce63TNutt6zycGeGLm8Uw==",
+  "dgSpecHash": "bDRkC3WMUZGEfw3TVxzm1hVh13M+EB8VRqBc94egSRAa6+WUPouTWcygj6XSMiaYGTmYk5D1cRzuesz2y3NFDQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\FlexiSourceExam\\FlexiSourceExam.Test\\FlexiSourceExam.Test.csproj",
+  "projectFilePath": "d:\\Projects\\FlexiSourceExam\\FlexiSourceExam.Test\\FlexiSourceExam.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Charles\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
