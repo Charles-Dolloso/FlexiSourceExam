@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace FlexiSourceExam.Api.Services
 {
-    public static class ServiceUtilities
+    public static class TransientService
     {
         public static void AddServices(this IServiceCollection services)
         {

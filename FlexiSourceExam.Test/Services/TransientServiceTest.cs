@@ -5,7 +5,7 @@ using Xunit;
 
 namespace FlexiSourceExam.Test
 {
-    public class ServiceUtilitiestest
+    public class TransientServiceTest
     {
         [Fact]
         public void AddServices_ReturnsVoid()
